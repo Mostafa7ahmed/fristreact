@@ -292,7 +292,6 @@ function Product() {
          <div className="p-5 my-5 bg-danger w-100"></div>
 
 
-         <Categores   data={obj} />
 
       
       </>
