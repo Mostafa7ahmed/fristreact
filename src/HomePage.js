@@ -10,11 +10,8 @@ function HomePage() {
         <div>
     
               <Navbar/>
-              <Slider/>
-
-              <Product/>
-
-
+          
+                  <Product/>
 
 
                <Footer/>
