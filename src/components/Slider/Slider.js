@@ -1,7 +1,14 @@
-import React from 'react'
-import slider from "./slider.css"
-import Productssss from '../Products/product'
+import React, { useState } from 'react'
+import banner from "../../assents/images/banner.jpeg"
+
 function Slider() {
+
+    // const [first, setfirst] = useState([
+    //     "../../assents/images/banner.jpeg",
+    //     "../../assents/images/banner.jpeg",
+    //     "../../assents/images/banner.jpeg"
+    // ])
+    // console.log(first[0])
     return (
  
 
@@ -14,13 +21,13 @@ function Slider() {
             </div>
             <div className="carousel-inner ">
                 <div className="carousel-item active h-75">
-                    <img src="/banner.jpeg" className="d-block w-100" alt="..."></img>
+                    <img src={banner} className="d-block w-100" alt="..."></img>
                 </div>
                 <div className="carousel-item">
-                    <img src="/banner.jpeg" className="d-block w-100" alt="..."></img>
+                <img src={banner} className="d-block w-100" alt="..."></img>
                 </div>
                 <div className="carousel-item">
-                    <img src="/banner.jpeg" className="d-block w-100" alt="..."></img>
+                <img src={banner} className="d-block w-100" alt="..."></img>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

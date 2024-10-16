@@ -1,17 +1,17 @@
 import React from 'react'
 
 function Allproducts({data , fun} ) {
-
+  //Data
 
 
   return (
     <>
-        <div className="d-flex align-content-center flex-wrap my-2 ">
+     <div className="d-flex align-content-center flex-wrap my-2 ">
       {data.map((product) => (
         <div className="card w-25 " key={product.id}>
           <div className="card-body">
             <img
-              src={product.image}
+              src={product.images[0]}
               width={100}
               height={100}
               className="my-5"
